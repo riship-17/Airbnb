@@ -58,7 +58,7 @@ export default function SearchPage() {
                 <div className="min-w-0">
                   <h3 className="font-semibold text-[15px] text-gray-900 truncate">{card.location}</h3>
                   <p className="text-gray-500 text-[14px] truncate">{card.title}</p>
-                  <p className="text-gray-500 text-[14px]">{card.host}</p>
+                  <p className="text-gray-500 text-[14px]">{typeof card.host === 'object' ? `Hosted by ${card.host?.name}` : card.host}</p>
                   <div className="mt-1 flex items-baseline gap-1">
                     <span className="font-semibold text-[15px] text-gray-900">{card.price}</span>
                     <span className="text-gray-500 text-[14px]">night</span>

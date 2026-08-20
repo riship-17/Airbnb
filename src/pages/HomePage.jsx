@@ -265,9 +265,16 @@ export default function HomePage() {
   
   const [whereValue, setWhereValue] = useState('');
   const [whenValue, setWhenValue] = useState('');
-  const [guests, setGuests] = useState({ Adults: 0, Children: 0, Infants: 0 });
-  
+  const [isScrolled, setIsScrolled] = useState(false);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 40);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleDestSelect = (val) => {
     setWhereValue(val);
@@ -327,32 +334,50 @@ export default function HomePage() {
             <span className="font-bold text-[20px] hidden lg:block tracking-tight">airbnb</span>
           </Link>
 
-          {/* Center tabs */}
-          <nav className="hidden md:flex items-end gap-1 h-16" aria-label="Main navigation">
-            {NAV_TABS.map((tab, i) => (
+          {/* Center tabs or Compact Search Bar on Scroll */}
+          {isScrolled ? (
+            <div className="flex-1 flex justify-center animate-in fade-in duration-200">
               <button
-                key={tab.id}
-                onClick={() => handleTabClick(tab.id)}
-                className={`nav-tab relative flex items-center gap-1.5 px-4 h-full text-[15px] font-semibold transition-all duration-200 group ${
-                  activeTab === tab.id ? 'active text-gray-900' : 'text-gray-500 hover:text-gray-900'
-                }`}
+                onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }); setSearchExpanded(true); }}
+                className="border border-gray-300 rounded-full py-2 px-4 shadow-sm hover:shadow-md transition-all flex items-center divide-x divide-gray-300 cursor-pointer"
               >
-                <img
-                  src={tab.imageSrc}
-                  alt={tab.label}
-                  className={`nav-tab-icon nav-icon-entrance ${tab.imageClass} h-[24px] object-contain opacity-90 group-hover:opacity-100 transition-opacity`}
-                  style={{ animationDelay: `${i * 0.1}s` }}
-                />
-                {tab.label}
-                {/* Active Tab Underline indicator */}
-                {activeTab === tab.id ? (
-                  <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-900 tab-underline" />
-                ) : (
-                  <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-300 opacity-0 group-hover:opacity-100 transition-opacity" />
-                )}
+                <span className="px-3 text-[14px] font-semibold text-gray-900">Anywhere</span>
+                <span className="px-3 text-[14px] font-semibold text-gray-900">Anytime</span>
+                <span className="px-3 text-[14px] text-gray-500 flex items-center gap-2">
+                  Add guests
+                  <div className="bg-[#FF385C] rounded-full p-1.5 text-white ml-2 flex items-center justify-center">
+                    <span className="material-symbols-outlined text-[14px] font-bold">search</span>
+                  </div>
+                </span>
               </button>
-            ))}
-          </nav>
+            </div>
+          ) : (
+            <nav className="hidden md:flex items-end gap-1 h-16" aria-label="Main navigation">
+              {NAV_TABS.map((tab, i) => (
+                <button
+                  key={tab.id}
+                  onClick={() => handleTabClick(tab.id)}
+                  className={`nav-tab relative flex items-center gap-1.5 px-4 h-full text-[15px] font-semibold transition-all duration-200 group ${
+                    activeTab === tab.id ? 'active text-gray-900' : 'text-gray-500 hover:text-gray-900'
+                  }`}
+                >
+                  <img
+                    src={tab.imageSrc}
+                    alt={tab.label}
+                    className={`nav-tab-icon nav-icon-entrance ${tab.imageClass} h-[24px] object-contain opacity-90 group-hover:opacity-100 transition-opacity`}
+                    style={{ animationDelay: `${i * 0.1}s` }}
+                  />
+                  {tab.label}
+                  {/* Active Tab Underline indicator */}
+                  {activeTab === tab.id ? (
+                    <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-900 tab-underline" />
+                  ) : (
+                    <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-300 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  )}
+                </button>
+              ))}
+            </nav>
+          )}
 
           {/* Right actions */}
           <div className="flex items-center gap-2">
@@ -365,8 +390,10 @@ export default function HomePage() {
             <UserMenuDropdown />
           </div>
         </div>
+
         {/* Search bar row */}
-        <div className="flex justify-center pb-4 px-4">
+        {!isScrolled && (
+          <div className="flex justify-center pb-4 px-4 animate-in fade-in duration-200">
           <div ref={searchRef} className="relative w-full max-w-3xl">
             <div
               className={`flex items-center bg-white border rounded-full h-14 overflow-hidden divide-x divide-gray-200 transition-all duration-200 ${
@@ -476,6 +503,7 @@ export default function HomePage() {
             )}
           </div>
         </div>
+        )}
       </header>
 
       {/* ── MAIN CONTENT ───────────────────────────────── */}
