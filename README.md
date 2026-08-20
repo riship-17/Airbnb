@@ -95,3 +95,4 @@ Key tokens extracted from the Airbnb design system, defined in `src/lib/design-t
 | Border | `#DDDDDD` | `border-border-light` |
 | Gallery radius | `12px` | `rounded-gallery` |
 | Base transition | `200ms ease` | — |
+# Airbnb
