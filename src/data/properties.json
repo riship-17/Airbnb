@@ -1,0 +1,522 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Bright Designer 2BHK • Fully Equipped Kitchen",
+      "subtitle": "Entire serviced apartment in Mumbai, India",
+      "type": "Entire serviced apartment",
+      "location": "Vile Parle West, Mumbai, Maharashtra, India",
+      "city": "Mumbai",
+      "section": "mumbai",
+      "guests": 5,
+      "bedrooms": 2,
+      "beds": 3,
+      "bathrooms": 2,
+      "rating": 4.89,
+      "reviewCount": 9,
+      "badge": "Guest favourite",
+      "pricePerNight": 7000,
+      "priceLabel": "₹7,973",
+      "priceForStay": 14000,
+      "priceForStayLabel": "₹14,000",
+      "nights": 2,
+      "checkIn": "10/30/2026",
+      "checkOut": "11/1/2026",
+      "freeCancellationDate": "25 October",
+      "images": [
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=800&q=85",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600&q=80",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80",
+        "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&q=80"
+      ],
+      "host": {
+        "name": "OSI Apartments",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+        "yearsHosting": 8,
+        "responseRate": "100%",
+        "responseTime": "within an hour",
+        "superhost": true,
+        "about": "We are a professionally managed apartment hospitality company based in Mumbai. Our properties are thoughtfully designed and maintained to the highest standards. We ensure a seamless self-check-in experience for all guests.",
+        "joinedYear": "2016"
+      },
+      "highlights": [
+        { "icon": "ac_unit", "title": "Designed for staying cool", "desc": "Beat the heat with the A/C and ceiling fan" },
+        { "icon": "key", "title": "Self check-in", "desc": "Check yourself in with the lockbox." },
+        { "icon": "open_in_full", "title": "Extra spacious", "desc": "Guests love this home's spaciousness for a comfortable stay." }
+      ],
+      "description": "OSI Apartments Vile Parle East\n\nCheck out our IG: @osiapartments\n\nYou'll feel it the moment you walk in — soft sunlight, peaceful green views & thoughtfully designed interiors. Close to Dolphin Aquarium this newly renovated 2BHK combines modern comfort with calming designer.",
+      "neighbourhoodHighlights": "Located in Vile Parle West near Dolphin Aquarium, the apartment offers easy access to beaches, shopping streets, restaurants, hospitals, and business hubs while maintaining a peaceful residential atmosphere.",
+      "mapLocation": { "lat": 19.1136, "lng": 72.8697, "label": "Mumbai, Maharashtra, India" },
+      "sleepingRooms": [
+        { "name": "Bedroom 1", "beds": "1 double bed", "image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=400&q=80" },
+        { "name": "Bedroom 2", "beds": "2 single beds", "image": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=400&q=80" }
+      ],
+      "amenities": [
+        { "icon": "kitchen", "name": "Kitchen", "available": true },
+        { "icon": "wifi", "name": "Wifi", "available": true },
+        { "icon": "computer", "name": "Dedicated workspace", "available": true },
+        { "icon": "tv", "name": "TV", "available": true },
+        { "icon": "elevator", "name": "Lift", "available": true },
+        { "icon": "local_laundry_service", "name": "Washing machine", "available": true },
+        { "icon": "ac_unit", "name": "Air conditioning", "available": true },
+        { "icon": "videocam", "name": "Exterior security cameras on property", "available": true },
+        { "icon": "detector_smoke", "name": "Carbon monoxide alarm", "available": false },
+        { "icon": "detector_smoke", "name": "Smoke alarm", "available": false }
+      ],
+      "totalAmenities": 39,
+      "ratingBreakdown": {
+        "overall": { "5": 78, "4": 15, "3": 4, "2": 2, "1": 1 },
+        "cleanliness": 5.0,
+        "accuracy": 5.0,
+        "checkIn": 4.9,
+        "communication": 5.0,
+        "location": 4.7,
+        "value": 5.0
+      },
+      "reviewTags": [
+        { "emoji": "💰", "label": "Value", "count": 3 },
+        { "emoji": "🏠", "label": "Condition", "count": 2 },
+        { "emoji": "🤝", "label": "Hospitality", "count": 5 },
+        { "emoji": "✨", "label": "Cleanliness", "count": 3 }
+      ],
+      "reviews": [
+        { "id": 1, "name": "Vivek", "avatar": "https://i.pravatar.cc/80?img=11", "tenure": "8 months on Airbnb", "date": "2 days ago", "rating": 5, "text": "Very beautiful, lovely, aesthetic, and dreamy. The photos honestly don't do justice to the beauty of this apartment. It's so spacious, and the whole vibe of the place feels incredibly calm and refreshing. The furniture is gorgeous. Totally recommend." },
+        { "id": 2, "name": "Aditya", "avatar": "https://i.pravatar.cc/80?img=12", "tenure": "1 year on Airbnb", "date": "4 days ago", "rating": 5, "text": "It was a very comfortable stay." },
+        { "id": 3, "name": "Soumya", "avatar": "https://i.pravatar.cc/80?img=13", "tenure": "1 year on Airbnb", "date": "3 weeks ago", "rating": 5, "text": "Last moment booking, but completely worth it, very well maintained rooms and bathroom. Lakshay( the housekeeper) was also very helpful. Totally recommend" },
+        { "id": 4, "name": "Sakshi", "avatar": "https://i.pravatar.cc/80?img=14", "tenure": "2 years on Airbnb", "date": "3 weeks ago", "rating": 5, "text": "The apartment was clean and spacious. Lakshya was helpful throughout the stay. Worth the money. Thanks." }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lakeview Heritage Villa",
+      "subtitle": "Entire villa in Udaipur, Rajasthan",
+      "type": "Entire villa",
+      "location": "Lake Pichola Area, Udaipur, Rajasthan, India",
+      "city": "Udaipur",
+      "section": "udaipur",
+      "guests": 6,
+      "bedrooms": 3,
+      "beds": 4,
+      "bathrooms": 3,
+      "rating": 4.95,
+      "reviewCount": 22,
+      "badge": "Guest favourite",
+      "pricePerNight": 15400,
+      "priceLabel": "₹15,400",
+      "priceForStay": 46200,
+      "priceForStayLabel": "₹46,200",
+      "nights": 3,
+      "checkIn": "11/04/2026",
+      "checkOut": "11/09/2026",
+      "freeCancellationDate": "1 November",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuDaeFCB9PqZDD5AKraHFAlu5QKpOvNtXNsJ2YZ3dCyNRwO9UhBFngUlgGrQHjrFFQG9ly79a_fwB0qCsHyq3L9XwTHf7842oWRCxuwPX5a2aGbeIRqVpNN_mk240qKwXL-2gXXMm9S2FFSdjLKm5qLx7lJKJv7uX3sCBLUpwqNqlEAMnXRd8o8QCG3GuKmF-C-fLLJE8BY2ez9gLCcyKTIEIsglDLGJNwxQ_cMIKhdzD8Pirp7FgRIQMqL4N--zmIIzOaBHj4dJ_6Xa",
+        "https://images.unsplash.com/photo-1579033461380-adb47c3eb938?w=600&q=80",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&q=80",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80",
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80"
+      ],
+      "host": {
+        "name": "Priya",
+        "avatar": "https://i.pravatar.cc/100?img=47",
+        "yearsHosting": 5,
+        "responseRate": "98%",
+        "responseTime": "within a few hours",
+        "superhost": true,
+        "about": "We are a family of heritage property owners in Udaipur. Our villa is nestled on the banks of Lake Pichola with stunning views of the City Palace. We ensure every guest experiences the royal Rajasthani hospitality.",
+        "joinedYear": "2019"
+      },
+      "highlights": [
+        { "icon": "pool", "title": "Private pool", "desc": "Enjoy a refreshing dip in the private heated pool." },
+        { "icon": "landscape", "title": "Lake views", "desc": "Breathtaking views of Lake Pichola and City Palace." },
+        { "icon": "king_bed", "title": "Luxurious bedrooms", "desc": "Opulent Rajasthani-themed rooms with premium bedding." }
+      ],
+      "description": "A magnificent heritage property on the banks of Lake Pichola, offering royale Rajasthani hospitality. The villa features three exquisitely decorated bedrooms, a private courtyard, and stunning lake views. Ideal for family getaways or romantic retreats in the City of Lakes.",
+      "neighbourhoodHighlights": "Steps from Lake Pichola and within walking distance of the iconic City Palace, Jagdish Temple, and the bustling old city bazaars. The area is rich in history and culture.",
+      "mapLocation": { "lat": 24.5754, "lng": 73.6836, "label": "Udaipur, Rajasthan, India" },
+      "sleepingRooms": [
+        { "name": "Master Suite", "beds": "1 king bed", "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&q=80" },
+        { "name": "Heritage Room", "beds": "1 queen bed", "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&q=80" },
+        { "name": "Garden Room", "beds": "2 single beds", "image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=400&q=80" }
+      ],
+      "amenities": [
+        { "icon": "pool", "name": "Private pool", "available": true },
+        { "icon": "wifi", "name": "Wifi", "available": true },
+        { "icon": "kitchen", "name": "Full kitchen", "available": true },
+        { "icon": "ac_unit", "name": "Air conditioning", "available": true },
+        { "icon": "local_parking", "name": "Free parking", "available": true },
+        { "icon": "tv", "name": "Smart TV", "available": true },
+        { "icon": "local_laundry_service", "name": "Washing machine", "available": true },
+        { "icon": "balcony", "name": "Lake view terrace", "available": true },
+        { "icon": "detector_smoke", "name": "Smoke alarm", "available": true },
+        { "icon": "fire_extinguisher", "name": "Fire extinguisher", "available": true }
+      ],
+      "totalAmenities": 28,
+      "ratingBreakdown": {
+        "overall": { "5": 90, "4": 7, "3": 2, "2": 1, "1": 0 },
+        "cleanliness": 5.0,
+        "accuracy": 4.9,
+        "checkIn": 5.0,
+        "communication": 5.0,
+        "location": 5.0,
+        "value": 4.8
+      },
+      "reviewTags": [
+        { "emoji": "🌊", "label": "Lake views", "count": 12 },
+        { "emoji": "✨", "label": "Cleanliness", "count": 8 },
+        { "emoji": "🤝", "label": "Hospitality", "count": 10 }
+      ],
+      "reviews": [
+        { "id": 1, "name": "Rahul", "avatar": "https://i.pravatar.cc/80?img=21", "tenure": "2 years on Airbnb", "date": "1 week ago", "rating": 5, "text": "Absolutely magical experience. The lake views from our room were incredible and the villa itself is stunning. Priya was an amazing host — very attentive and responsive." },
+        { "id": 2, "name": "Ananya", "avatar": "https://i.pravatar.cc/80?img=22", "tenure": "3 years on Airbnb", "date": "2 weeks ago", "rating": 5, "text": "One of the best stays of our lives. The pool overlooking the lake is unreal. Heritage decor, impeccable cleanliness, excellent staff. Will definitely return!" },
+        { "id": 3, "name": "Arjun", "avatar": "https://i.pravatar.cc/80?img=23", "tenure": "6 months on Airbnb", "date": "1 month ago", "rating": 5, "text": "Perfect getaway. The property is exactly as described — spacious, beautifully decorated, and in a prime location. Self check-in was seamless." },
+        { "id": 4, "name": "Sneha", "avatar": "https://i.pravatar.cc/80?img=24", "tenure": "1 year on Airbnb", "date": "1 month ago", "rating": 4, "text": "Beautiful property with stunning views. Excellent hospitality. Minor suggestion — the Wi-Fi could be faster, but overall a fantastic experience." }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Royal Retreat Boutique • City Centre",
+      "subtitle": "Entire boutique hotel room in Udaipur",
+      "type": "Private room in boutique hotel",
+      "location": "City Palace Road, Udaipur, Rajasthan, India",
+      "city": "Udaipur",
+      "section": "udaipur",
+      "guests": 2,
+      "bedrooms": 1,
+      "beds": 1,
+      "bathrooms": 1,
+      "rating": 4.82,
+      "reviewCount": 34,
+      "badge": null,
+      "pricePerNight": 8200,
+      "priceLabel": "₹8,200",
+      "priceForStay": 16400,
+      "priceForStayLabel": "₹16,400",
+      "nights": 2,
+      "checkIn": "11/12/2026",
+      "checkOut": "11/17/2026",
+      "freeCancellationDate": "8 November",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuCv3YbwP1xiQpiRqs3dPP75_RT2P4NbnNtU_JGVW10aOPuG0odaL4A6Wjw4188qiuURZVn9DlKwXVZCbRNIQtks-iF3t4J063O8a0wdNtleAl9zpdt9_zaRNi-OuPEIQE4v3gkkNI1YOIzzfhN0CWteIv203YNK3Ib1eo7jqrrw3qrq2Gh0NqOymR-8gFbwl0VXUYqNfuE13busY5IUsQXqNNpYT2iEMOxIhbkw8EHqNE2OIGnXs9GrQJnAWxQ86-CfQfPtK12KqSjK",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&q=80",
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80",
+        "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?w=600&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80"
+      ],
+      "host": {
+        "name": "Vikram Heritage",
+        "avatar": "https://i.pravatar.cc/100?img=52",
+        "yearsHosting": 10,
+        "responseRate": "95%",
+        "responseTime": "within an hour",
+        "superhost": false,
+        "about": "Our boutique hotel is a restored 19th-century haveli that blends heritage architecture with modern comforts. We take pride in offering authentic Rajasthani hospitality to our guests.",
+        "joinedYear": "2014"
+      },
+      "highlights": [
+        { "icon": "fort", "title": "Heritage property", "desc": "A restored 19th-century haveli with original architecture." },
+        { "icon": "restaurant", "title": "Rooftop restaurant", "desc": "Enjoy authentic Rajasthani cuisine with City Palace views." },
+        { "icon": "key", "title": "24/7 concierge", "desc": "Our team is always available to assist you." }
+      ],
+      "description": "Step into a world of Rajput grandeur at our boutique haveli. The rooms feature hand-carved jharokhas, traditional frescos, and luxurious Rajasthani fabrics. Wake up to views of the City Palace and Lake Pichola while enjoying modern amenities.",
+      "neighbourhoodHighlights": "Ideally located on City Palace Road, you're steps from the iconic City Palace, Jagmandir Island, and the vibrant Hathi Pol Bazaar.",
+      "mapLocation": { "lat": 24.5794, "lng": 73.6862, "label": "City Palace Road, Udaipur" },
+      "sleepingRooms": [
+        { "name": "Maharaja Suite", "beds": "1 king bed", "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&q=80" }
+      ],
+      "amenities": [
+        { "icon": "wifi", "name": "Wifi", "available": true },
+        { "icon": "ac_unit", "name": "Air conditioning", "available": true },
+        { "icon": "tv", "name": "Smart TV", "available": true },
+        { "icon": "restaurant", "name": "Rooftop restaurant", "available": true },
+        { "icon": "local_bar", "name": "Minibar", "available": true },
+        { "icon": "bathtub", "name": "Bathtub", "available": true },
+        { "icon": "local_parking", "name": "Valet parking", "available": true },
+        { "icon": "spa", "name": "Spa access", "available": true },
+        { "icon": "detector_smoke", "name": "Smoke alarm", "available": true },
+        { "icon": "fire_extinguisher", "name": "Fire extinguisher", "available": true }
+      ],
+      "totalAmenities": 22,
+      "ratingBreakdown": {
+        "overall": { "5": 75, "4": 18, "3": 5, "2": 1, "1": 1 },
+        "cleanliness": 4.8,
+        "accuracy": 4.9,
+        "checkIn": 4.7,
+        "communication": 4.9,
+        "location": 5.0,
+        "value": 4.6
+      },
+      "reviewTags": [
+        { "emoji": "🏯", "label": "Heritage", "count": 15 },
+        { "emoji": "📍", "label": "Location", "count": 18 },
+        { "emoji": "🍽️", "label": "Restaurant", "count": 9 }
+      ],
+      "reviews": [
+        { "id": 1, "name": "Meera", "avatar": "https://i.pravatar.cc/80?img=31", "tenure": "2 years on Airbnb", "date": "3 days ago", "rating": 5, "text": "The haveli is absolutely gorgeous. Every corner is beautifully decorated. The location is perfect — we could walk to the City Palace and back." },
+        { "id": 2, "name": "Karan", "avatar": "https://i.pravatar.cc/80?img=32", "tenure": "1 year on Airbnb", "date": "1 week ago", "rating": 4, "text": "Great stay with excellent location. The rooftop restaurant serves amazing food. Room was clean and well-maintained." },
+        { "id": 3, "name": "Deepika", "avatar": "https://i.pravatar.cc/80?img=33", "tenure": "6 months on Airbnb", "date": "2 weeks ago", "rating": 5, "text": "The most beautiful accommodation I've ever had. The heritage architecture is breathtaking and the hosts are incredibly welcoming." },
+        { "id": 4, "name": "Rohit", "avatar": "https://i.pravatar.cc/80?img=34", "tenure": "3 years on Airbnb", "date": "3 weeks ago", "rating": 4, "text": "Lovely property with authentic character. The staff is courteous and helpful. Would highly recommend for a couple's getaway." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Pichola View Penthouse • Rooftop Pool",
+      "subtitle": "Entire penthouse in Udaipur, Rajasthan",
+      "type": "Entire penthouse",
+      "location": "Lake Palace Road, Udaipur, Rajasthan, India",
+      "city": "Udaipur",
+      "section": "udaipur",
+      "guests": 4,
+      "bedrooms": 2,
+      "beds": 2,
+      "bathrooms": 2,
+      "rating": 5.0,
+      "reviewCount": 18,
+      "badge": "Guest favourite",
+      "pricePerNight": 22000,
+      "priceLabel": "₹22,000",
+      "priceForStay": 88000,
+      "priceForStayLabel": "₹88,000",
+      "nights": 4,
+      "checkIn": "12/01/2026",
+      "checkOut": "12/05/2026",
+      "freeCancellationDate": "25 November",
+      "images": [
+        "https://lh3.googleusercontent.com/aida-public/AB6AXuD08jRpunmcVjZmbDYZalWK5YHecgqXENKJRI67ylRIFIa-6Di2au6nn9npC60_IoZlw6f34R0EBnF__d8dJ1wuYjbQmH_LtcPMI_frwHR7EzZw9impWU9sIrqEDjbVsECQ1N-g7A_K1QHTsNAYd3moq3pgrZCcz7H8_wFxLxWiFS1Gv01BLTY5mvfifz4YtJGjFfYGGPJ8ktv3mMHp0SDR75y9AAzWGGlJZktpRp7Pwp2345GqHQ0RHe6XVPHCjQNdgpB7m1Oe51Fn",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&q=80",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+        "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&q=80"
+      ],
+      "host": {
+        "name": "Lakshmi Stays",
+        "avatar": "https://i.pravatar.cc/100?img=43",
+        "yearsHosting": 6,
+        "responseRate": "100%",
+        "responseTime": "within an hour",
+        "superhost": true,
+        "about": "We specialize in luxury lake view properties in Udaipur. Each property is curated to offer an unparalleled experience of the City of Lakes.",
+        "joinedYear": "2018"
+      },
+      "highlights": [
+        { "icon": "pool", "title": "Rooftop infinity pool", "desc": "Swim with panoramic Lake Pichola views." },
+        { "icon": "landscape", "title": "360° lake views", "desc": "Unobstructed views of the lake and city palace from every room." },
+        { "icon": "local_bar", "title": "Private bar", "desc": "Fully stocked private bar with premium spirits." }
+      ],
+      "description": "An extraordinary penthouse perched above the shimmering Lake Pichola. Wake up to breathtaking 360° views of the lake, City Palace, and the Aravalli hills. This architectural masterpiece features a private rooftop infinity pool, open-air dining terrace, and interiors that seamlessly blend traditional Rajasthani craftsmanship with contemporary luxury.",
+      "neighbourhoodHighlights": "Situated in the heart of Udaipur's old city, you're surrounded by centuries of Rajput history. The City Palace, Jagdish Temple, and picturesque ghats are all within a 5-minute walk.",
+      "mapLocation": { "lat": 24.5762, "lng": 73.6853, "label": "Lake Palace Road, Udaipur" },
+      "sleepingRooms": [
+        { "name": "Lake View Suite", "beds": "1 king bed", "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&q=80" },
+        { "name": "Palace View Room", "beds": "1 queen bed", "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&q=80" }
+      ],
+      "amenities": [
+        { "icon": "pool", "name": "Private rooftop pool", "available": true },
+        { "icon": "wifi", "name": "High-speed Wifi", "available": true },
+        { "icon": "kitchen", "name": "Chef's kitchen", "available": true },
+        { "icon": "ac_unit", "name": "Central AC & heating", "available": true },
+        { "icon": "local_bar", "name": "Private bar", "available": true },
+        { "icon": "tv", "name": "4K Smart TV", "available": true },
+        { "icon": "local_parking", "name": "Valet parking", "available": true },
+        { "icon": "spa", "name": "In-room spa services", "available": true },
+        { "icon": "balcony", "name": "Private terrace", "available": true },
+        { "icon": "detector_smoke", "name": "Smoke alarm", "available": true }
+      ],
+      "totalAmenities": 35,
+      "ratingBreakdown": {
+        "overall": { "5": 100, "4": 0, "3": 0, "2": 0, "1": 0 },
+        "cleanliness": 5.0,
+        "accuracy": 5.0,
+        "checkIn": 5.0,
+        "communication": 5.0,
+        "location": 5.0,
+        "value": 5.0
+      },
+      "reviewTags": [
+        { "emoji": "🌊", "label": "Views", "count": 16 },
+        { "emoji": "💎", "label": "Luxury", "count": 14 },
+        { "emoji": "✨", "label": "Cleanliness", "count": 12 }
+      ],
+      "reviews": [
+        { "id": 1, "name": "Nisha", "avatar": "https://i.pravatar.cc/80?img=41", "tenure": "4 years on Airbnb", "date": "5 days ago", "rating": 5, "text": "This penthouse is an absolute dream. The infinity pool overlooking Lake Pichola is unlike anything I've experienced. Every detail is perfection." },
+        { "id": 2, "name": "Siddharth", "avatar": "https://i.pravatar.cc/80?img=42", "tenure": "2 years on Airbnb", "date": "2 weeks ago", "rating": 5, "text": "Worth every rupee. The views are spectacular — watching the sunrise over the lake from the pool was life-changing. Impeccable service throughout." },
+        { "id": 3, "name": "Tara", "avatar": "https://i.pravatar.cc/80?img=43", "tenure": "3 years on Airbnb", "date": "3 weeks ago", "rating": 5, "text": "Perfect anniversary celebration. The penthouse exceeded all our expectations. The hosts arranged special touches that made everything magical." },
+        { "id": 4, "name": "Dev", "avatar": "https://i.pravatar.cc/80?img=44", "tenure": "1 year on Airbnb", "date": "1 month ago", "rating": 5, "text": "If you can afford it, book this place. The pool, the views, the interiors — all absolutely stunning. Best Airbnb stay in India, hands down." }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Villa in Assagao • Private Pool & Garden",
+      "subtitle": "Entire villa in North Goa",
+      "type": "Entire villa",
+      "location": "Assagao, North Goa, India",
+      "city": "Assagao, North Goa",
+      "section": "goa",
+      "guests": 8,
+      "bedrooms": 4,
+      "beds": 5,
+      "bathrooms": 4,
+      "rating": 5.0,
+      "reviewCount": 31,
+      "badge": "Guest favourite",
+      "pricePerNight": 33095,
+      "priceLabel": "₹33,095",
+      "priceForStay": 165475,
+      "priceForStayLabel": "₹1,65,475",
+      "nights": 5,
+      "checkIn": "12/10/2026",
+      "checkOut": "12/15/2026",
+      "freeCancellationDate": "5 December",
+      "images": [
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=85",
+        "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&q=80",
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=600&q=80",
+        "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&q=80"
+      ],
+      "host": {
+        "name": "Goa Getaways",
+        "avatar": "https://i.pravatar.cc/100?img=57",
+        "yearsHosting": 7,
+        "responseRate": "99%",
+        "responseTime": "within an hour",
+        "superhost": true,
+        "about": "We manage premium villas in North Goa's most coveted neighborhoods. Each property is fully staffed and equipped for an indulgent tropical escape.",
+        "joinedYear": "2017"
+      },
+      "highlights": [
+        { "icon": "pool", "title": "Private pool", "desc": "Large infinity pool with sun loungers and outdoor shower." },
+        { "icon": "local_bar", "title": "Fully staffed", "desc": "Dedicated house manager, cook, and daily housekeeping." },
+        { "icon": "outdoor_grill", "title": "Outdoor kitchen", "desc": "Fully equipped outdoor kitchen with BBQ grill." }
+      ],
+      "description": "Nestled in the lush greenery of Assagao, this stunning 4-bedroom villa is a tropical paradise. The property features a large private pool surrounded by manicured tropical gardens, multiple outdoor lounging areas, and a dedicated house manager. Perfect for group getaways, family vacations, or corporate retreats.",
+      "neighbourhoodHighlights": "Assagao is Goa's most sought-after village — a serene escape with artisan cafes, boutique shops, and yoga studios. Baga Beach and Anjuna Market are just 10 minutes away.",
+      "mapLocation": { "lat": 15.5598, "lng": 73.7625, "label": "Assagao, North Goa, India" },
+      "sleepingRooms": [
+        { "name": "Master Suite", "beds": "1 king bed", "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400&q=80" },
+        { "name": "Pool Room", "beds": "1 queen bed", "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400&q=80" },
+        { "name": "Garden Room 1", "beds": "1 queen bed", "image": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=400&q=80" },
+        { "name": "Garden Room 2", "beds": "2 single beds", "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=400&q=80" }
+      ],
+      "amenities": [
+        { "icon": "pool", "name": "Private pool", "available": true },
+        { "icon": "wifi", "name": "High-speed Wifi", "available": true },
+        { "icon": "kitchen", "name": "Fully equipped kitchen", "available": true },
+        { "icon": "ac_unit", "name": "Air conditioning in all rooms", "available": true },
+        { "icon": "outdoor_grill", "name": "BBQ grill", "available": true },
+        { "icon": "local_laundry_service", "name": "Washing machine", "available": true },
+        { "icon": "local_parking", "name": "Free parking for 3 cars", "available": true },
+        { "icon": "tv", "name": "Smart TV", "available": true },
+        { "icon": "security", "name": "24/7 security", "available": true },
+        { "icon": "detector_smoke", "name": "Smoke alarm", "available": true }
+      ],
+      "totalAmenities": 42,
+      "ratingBreakdown": {
+        "overall": { "5": 96, "4": 4, "3": 0, "2": 0, "1": 0 },
+        "cleanliness": 5.0,
+        "accuracy": 5.0,
+        "checkIn": 5.0,
+        "communication": 5.0,
+        "location": 4.9,
+        "value": 4.8
+      },
+      "reviewTags": [
+        { "emoji": "🏊", "label": "Pool", "count": 24 },
+        { "emoji": "🌴", "label": "Tropical", "count": 19 },
+        { "emoji": "👨‍🍳", "label": "Staff", "count": 16 }
+      ],
+      "reviews": [
+        { "id": 1, "name": "Kunal", "avatar": "https://i.pravatar.cc/80?img=51", "tenure": "5 years on Airbnb", "date": "3 days ago", "rating": 5, "text": "Absolute paradise! Spent 5 nights here with 7 friends and it was the trip of a lifetime. The pool is stunning, the staff is incredible, and the food they prepared was restaurant-quality." },
+        { "id": 2, "name": "Prerna", "avatar": "https://i.pravatar.cc/80?img=52", "tenure": "2 years on Airbnb", "date": "2 weeks ago", "rating": 5, "text": "This villa is everything the photos promise and more. The greenery, the pool, the rooms — all perfect. The house manager was incredibly helpful and attentive." },
+        { "id": 3, "name": "Akash", "avatar": "https://i.pravatar.cc/80?img=53", "tenure": "3 years on Airbnb", "date": "1 month ago", "rating": 5, "text": "Best vacation we've ever had in Goa. 8 of us stayed and everyone was blown away. The location in Assagao is quiet but still close to everything." },
+        { "id": 4, "name": "Divya", "avatar": "https://i.pravatar.cc/80?img=54", "tenure": "4 years on Airbnb", "date": "1 month ago", "rating": 5, "text": "If you're visiting Goa with a group, this is the place to book. The villa is massive, impeccably maintained, and the pool is the star of the show." }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Flat in Versova • Creative Artist District",
+      "subtitle": "Entire flat in Mumbai",
+      "type": "Entire flat",
+      "location": "Versova, Andheri West, Mumbai, Maharashtra, India",
+      "city": "Versova, Mumbai",
+      "section": "mumbai",
+      "guests": 3,
+      "bedrooms": 1,
+      "beds": 2,
+      "bathrooms": 1,
+      "rating": 5.0,
+      "reviewCount": 14,
+      "badge": null,
+      "pricePerNight": 7973,
+      "priceLabel": "₹7,973",
+      "priceForStay": 15946,
+      "priceForStayLabel": "₹15,946",
+      "nights": 2,
+      "checkIn": "12/10/2026",
+      "checkOut": "12/12/2026",
+      "freeCancellationDate": "7 December",
+      "images": [
+        "https://images.unsplash.com/photo-1568495248636-6432b97bd949?w=800&q=85",
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80",
+        "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&q=80",
+        "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=600&q=80",
+        "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=600&q=80"
+      ],
+      "host": {
+        "name": "Riya & Kush",
+        "avatar": "https://i.pravatar.cc/100?img=65",
+        "yearsHosting": 3,
+        "responseRate": "100%",
+        "responseTime": "within an hour",
+        "superhost": true,
+        "about": "We are artists living in the creative hub of Versova. Our flat is a cozy, artistically decorated space for travelers who appreciate design and culture.",
+        "joinedYear": "2021"
+      },
+      "highlights": [
+        { "icon": "palette", "title": "Artistic interiors", "desc": "Curated art pieces and handcrafted furniture throughout." },
+        { "icon": "beach_access", "title": "Near Versova beach", "desc": "A 5-minute walk to the scenic Versova Beach." },
+        { "icon": "wifi", "title": "Work-friendly", "desc": "High-speed wifi and a dedicated work desk." }
+      ],
+      "description": "A beautifully designed flat in Versova, Mumbai's coolest artist enclave. The space is filled with original artwork, handpicked furniture, and artistic touches that create a warm, creative atmosphere. Located steps from Versova Beach and the vibrant café culture of Andheri West.",
+      "neighbourhoodHighlights": "Versova is Mumbai's hidden gem — a fishing village turned creative hub. Enjoy artisan cafes, the famous Versova Beach promenade, and easy access to Andheri's business district.",
+      "mapLocation": { "lat": 19.1319, "lng": 72.8181, "label": "Versova, Mumbai, Maharashtra" },
+      "sleepingRooms": [
+        { "name": "Artist Bedroom", "beds": "1 double bed", "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=400&q=80" }
+      ],
+      "amenities": [
+        { "icon": "wifi", "name": "High-speed Wifi", "available": true },
+        { "icon": "kitchen", "name": "Fully equipped kitchen", "available": true },
+        { "icon": "ac_unit", "name": "Air conditioning", "available": true },
+        { "icon": "tv", "name": "Smart TV with Netflix", "available": true },
+        { "icon": "local_laundry_service", "name": "Washing machine", "available": true },
+        { "icon": "computer", "name": "Work desk", "available": true },
+        { "icon": "elevator", "name": "Lift", "available": true },
+        { "icon": "local_parking", "name": "Street parking nearby", "available": true },
+        { "icon": "detector_smoke", "name": "Smoke alarm", "available": true },
+        { "icon": "security", "name": "Security cameras on property", "available": true }
+      ],
+      "totalAmenities": 18,
+      "ratingBreakdown": {
+        "overall": { "5": 100, "4": 0, "3": 0, "2": 0, "1": 0 },
+        "cleanliness": 5.0,
+        "accuracy": 5.0,
+        "checkIn": 5.0,
+        "communication": 5.0,
+        "location": 4.9,
+        "value": 5.0
+      },
+      "reviewTags": [
+        { "emoji": "🎨", "label": "Artistic", "count": 10 },
+        { "emoji": "🏖️", "label": "Beach nearby", "count": 8 },
+        { "emoji": "✨", "label": "Cleanliness", "count": 12 }
+      ],
+      "reviews": [
+        { "id": 1, "name": "Ishaan", "avatar": "https://i.pravatar.cc/80?img=61", "tenure": "2 years on Airbnb", "date": "1 week ago", "rating": 5, "text": "Absolutely loved this place! The decor is beautiful and the flat is spotlessly clean. Riya and Kush are the most thoughtful hosts — they left local food recommendations that were spot on." },
+        { "id": 2, "name": "Pooja", "avatar": "https://i.pravatar.cc/80?img=62", "tenure": "1 year on Airbnb", "date": "2 weeks ago", "rating": 5, "text": "Perfect little flat in the most charming neighborhood. Versova beach is just a short walk away. The artistic vibe of the flat perfectly matches the neighborhood." },
+        { "id": 3, "name": "Rajan", "avatar": "https://i.pravatar.cc/80?img=63", "tenure": "3 years on Airbnb", "date": "3 weeks ago", "rating": 5, "text": "Everything was perfect. Clean, stylish, and in a great location. Check-in was effortless. Highly recommend for anyone visiting Mumbai." },
+        { "id": 4, "name": "Aparna", "avatar": "https://i.pravatar.cc/80?img=64", "tenure": "2 years on Airbnb", "date": "1 month ago", "rating": 5, "text": "Loved the artistic touches throughout the flat. Such a unique and cozy space. The hosts clearly put a lot of love into creating this experience." }
+      ]
+    }
+  ]
+}

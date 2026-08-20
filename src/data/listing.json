@@ -1,0 +1,179 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "url": "https://images.unsplash.com/photo-1568495248636-6432b97bd949?w=1200&q=80",
+      "alt": "Elegant living room with wooden furniture and warm lighting"
+    },
+    {
+      "id": 2,
+      "url": "https://images.unsplash.com/photo-1598928636135-d146006ff4be?w=800&q=80",
+      "alt": "Cozy bedroom with white linens and large windows"
+    },
+    {
+      "id": 3,
+      "url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
+      "alt": "Modern kitchen with stone countertops"
+    },
+    {
+      "id": 4,
+      "url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&q=80",
+      "alt": "Outdoor terrace with city view at sunset"
+    },
+    {
+      "id": 5,
+      "url": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?w=800&q=80",
+      "alt": "Elegant bathroom with freestanding bathtub"
+    },
+    {
+      "id": 6,
+      "url": "https://images.unsplash.com/photo-1529408632839-a54952c491e5?w=800&q=80",
+      "alt": "Dining area with natural light and wooden table"
+    },
+    {
+      "id": 7,
+      "url": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&q=80",
+      "alt": "Rooftop pool with panoramic views"
+    },
+    {
+      "id": 8,
+      "url": "https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?w=800&q=80",
+      "alt": "Study nook with comfortable reading chair"
+    },
+    {
+      "id": 9,
+      "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&q=80",
+      "alt": "Marble bathroom with walk-in shower"
+    },
+    {
+      "id": 10,
+      "url": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800&q=80",
+      "alt": "Guest bedroom with twin beds"
+    }
+  ],
+  "listing": {
+    "id": "abc123",
+    "title": "Udaipur Niketan — Luxury Apartment in the City Centre",
+    "location": {
+      "city": "Udaipur",
+      "state": "Rajasthan",
+      "country": "India",
+      "lat": 24.5854,
+      "lng": 73.6872
+    },
+    "rating": 4.92,
+    "reviewCount": 128,
+    "superhost": true,
+    "isFavorite": false,
+    "type": "Entire apartment",
+    "description": "A beautifully curated apartment nestled in the heart of Udaipur's old city, offering stunning views of the Aravalli hills and Fateh Sagar Lake. This thoughtfully designed space blends heritage charm with modern comforts, perfect for travellers seeking an authentic Rajasthani experience.",
+    "guests": 4,
+    "bedrooms": 2,
+    "beds": 3,
+    "baths": 2,
+    "pricePerNight": 9500,
+    "currency": "₹",
+    "cleaningFee": 1500,
+    "serviceFee": 1200,
+    "host": {
+      "name": "Priya",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+      "joinedYear": 2018,
+      "superhost": true,
+      "reviewCount": 312,
+      "rating": 4.96,
+      "responseRate": "100%",
+      "responseTime": "within an hour",
+      "about": "Namaste! I'm a passionate host who loves sharing the beauty of Udaipur with travellers from around the world. I'm always available to help with recommendations and local tips."
+    },
+    "amenities": [
+      { "id": "wifi", "icon": "wifi", "label": "Fast wifi" },
+      { "id": "ac", "icon": "ac_unit", "label": "Air conditioning" },
+      { "id": "kitchen", "icon": "kitchen", "label": "Full kitchen" },
+      { "id": "washer", "icon": "local_laundry_service", "label": "Washer" },
+      { "id": "tv", "icon": "tv", "label": "55\" HDTV with Netflix" },
+      { "id": "parking", "icon": "local_parking", "label": "Free parking on premises" },
+      { "id": "pool", "icon": "pool", "label": "Private pool" },
+      { "id": "workspace", "icon": "desk", "label": "Dedicated workspace" },
+      { "id": "breakfast", "icon": "free_breakfast", "label": "Breakfast included" },
+      { "id": "elevator", "icon": "elevator", "label": "Elevator" },
+      { "id": "gym", "icon": "fitness_center", "label": "Gym" },
+      { "id": "balcony", "icon": "balcony", "label": "Private balcony with lake view" }
+    ],
+    "highlights": [
+      {
+        "icon": "verified",
+        "title": "Great check-in experience",
+        "description": "100% of recent guests gave the check-in process a 5-star rating."
+      },
+      {
+        "icon": "star",
+        "title": "Sparkling clean",
+        "description": "10 guests have mentioned how clean and tidy this place is."
+      },
+      {
+        "icon": "place",
+        "title": "Great location",
+        "description": "95% of recent guests gave the location a 5-star rating."
+      }
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "author": "Arjun",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80",
+        "date": "October 2025",
+        "rating": 5,
+        "text": "Absolutely stunning place. The views of the lake from the balcony are breathtaking. Priya was an incredible host — so responsive and helpful with local recommendations."
+      },
+      {
+        "id": "r2",
+        "author": "Sophie",
+        "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&q=80",
+        "date": "September 2025",
+        "rating": 5,
+        "text": "One of the best places we've ever stayed. The apartment is beautifully decorated, incredibly clean, and the location couldn't be more central. We'll be back!"
+      },
+      {
+        "id": "r3",
+        "author": "Rahul",
+        "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&q=80",
+        "date": "August 2025",
+        "rating": 5,
+        "text": "Perfect for a romantic getaway. The rooftop pool is magical at sunset. Priya left a welcome basket and gave us great tips for exploring Udaipur. Highly recommend."
+      },
+      {
+        "id": "r4",
+        "author": "Emma",
+        "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=80&q=80",
+        "date": "July 2025",
+        "rating": 5,
+        "text": "We loved everything about this apartment. The design is thoughtful and elegant, the beds are incredibly comfortable, and the kitchen is well-stocked. A true home away from home."
+      },
+      {
+        "id": "r5",
+        "author": "Vikram",
+        "avatar": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=80&q=80",
+        "date": "June 2025",
+        "rating": 5,
+        "text": "Great value for the quality. Fast wifi made it perfect for working remotely while exploring Udaipur in the evenings. The host is very attentive."
+      },
+      {
+        "id": "r6",
+        "author": "Isabelle",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=80&q=80",
+        "date": "May 2025",
+        "rating": 4,
+        "text": "Beautiful apartment in an amazing location. A few things could be improved but overall a wonderful stay. The view is unbeatable and Priya was very helpful."
+      }
+    ],
+    "ratingBreakdown": {
+      "cleanliness": 4.9,
+      "accuracy": 4.8,
+      "checkIn": 5.0,
+      "communication": 5.0,
+      "location": 4.9,
+      "value": 4.7
+    }
+  }
+}
