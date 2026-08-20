@@ -266,6 +266,7 @@ export default function HomePage() {
   const [whereValue, setWhereValue] = useState('');
   const [whenValue, setWhenValue] = useState('');
   const [isScrolled, setIsScrolled] = useState(false);
+  const [guests, setGuests] = useState({ Adults: 0, Children: 0, Infants: 0 });
   const navigate = useNavigate();
 
   useEffect(() => {
