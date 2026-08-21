@@ -247,25 +247,34 @@ export default function ListingDetailPage() {
             </p>
 
             {/* Guest favourite + rating */}
-            <div className="flex items-center gap-4 border border-gray-200 rounded-xl p-4 mb-6">
-              <div className="flex items-center gap-2">
-                <span className="text-[24px]">🏅</span>
-                <div>
-                  <p className="text-[12px] font-bold text-gray-900">Guest</p>
-                  <p className="text-[12px] font-bold text-gray-900">favourite</p>
+            <div className="flex items-center justify-between border border-gray-200 rounded-2xl p-6 mb-8 bg-white shadow-xs">
+              <div className="flex items-center gap-3">
+                <img 
+                  src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/059619e1-1751-42dd-84e4-50881483571a.png?im_w=120" 
+                  alt="Laurel Left" 
+                  className="h-16 w-auto object-contain" 
+                />
+                <div className="text-center">
+                  <p className="text-[20px] font-extrabold text-gray-900 tracking-tight leading-tight">Guest</p>
+                  <p className="text-[20px] font-extrabold text-gray-900 tracking-tight leading-tight">favourite</p>
                 </div>
+                <img 
+                  src="https://a0.muscache.com/im/pictures/airbnb-platform-assets/AirbnbPlatformAssets-GuestFavorite/original/33b80859-e87e-4c86-841c-645c786ba4c1.png?im_w=120" 
+                  alt="Laurel Right" 
+                  className="h-16 w-auto object-contain" 
+                />
               </div>
-              <div className="w-px h-10 bg-gray-200" />
-              <p className="text-[13px] text-gray-600 flex-1">One of the most loved homes on Airbnb, according to guests</p>
-              <div className="w-px h-10 bg-gray-200" />
+              <div className="w-px h-12 bg-gray-200" />
+              <p className="text-[14px] text-gray-700 font-medium max-w-[200px] leading-snug">One of the most loved homes on Airbnb, according to guests</p>
+              <div className="w-px h-12 bg-gray-200" />
               <div className="text-center">
-                <p className="text-[22px] font-bold text-gray-900">{property.rating}</p>
+                <p className="text-[24px] font-extrabold text-gray-900">{property.rating}</p>
                 <StarRating rating={property.rating} />
               </div>
-              <div className="w-px h-10 bg-gray-200" />
+              <div className="w-px h-12 bg-gray-200" />
               <div className="text-center">
-                <p className="text-[22px] font-bold text-gray-900">{property.reviewCount}</p>
-                <p className="text-[12px] text-gray-500">Reviews</p>
+                <p className="text-[24px] font-extrabold text-gray-900">{property.reviewCount}</p>
+                <p className="text-[12px] text-gray-500 font-semibold underline">Reviews</p>
               </div>
             </div>
 
