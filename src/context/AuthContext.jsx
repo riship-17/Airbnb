@@ -51,6 +51,9 @@ export function AuthProvider({ children }) {
       closeAuthModal();
     } catch (error) {
       console.error("Error signing in with Google", error);
+      if (error.code === 'auth/unauthorized-domain') {
+        alert("Domain unauthorized! Please add your Vercel URL to Firebase Console > Authentication > Settings > Authorized Domains.");
+      }
       throw error;
     }
   };
